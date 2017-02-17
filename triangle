@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <SCRIPT LANGUAGE="JavaScript">
+    </SCRIPT>
+</head>
+<body>
+    <script>
+        var sidea  = parseInt(prompt("Enter side A : "));
+        var sideb = parseInt(prompt("Enter side B : "));
+        var sidec = parseInt(prompt('Enter side C :'));
+        var x = (sidea + sideb + sidec) / 2;
+        var solving_triangle = Math.sqrt(x * (x - sidea) * (x - sideb) * (x - sideb));
+        //var  = (sidea * sideb * sidec) / 2;
+
+        document.write(solving_triangle);
+    </script>
+</body>
+</html>
