@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        var questions = [
+         ['Enter a number between 0-10!', 1 <= 10],
+        ];
+        function askQuestion(question) {
+            var answer = prompt(question[0], '');
+            if (answer <= 10) {
+                alert('Correct!');
+            } else {
+                alert('Sorry. try again ' + question[0]);
+            }
+        }
+        for (var i = 0; i < questions.length; i++) {
+            askQuestion(questions[i]);
+        }
+
+    </script>
+</body>
+</html>
