@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <input type="button" onclick="myFunction()" value="Click for new number" />
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            var x = Math.floor((Math.random() * 10) + 1);
+
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+
+    
+</body>
+</html>
